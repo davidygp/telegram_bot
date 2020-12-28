@@ -1,0 +1,11 @@
+prefix=/home/davidyam/anaconda3/envs/tele_bot
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/davidyam/anaconda3/envs/tele_bot/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
